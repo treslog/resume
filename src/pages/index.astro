@@ -1,0 +1,28 @@
+---
+import Fifth from "../Components/Fifth.astro";
+import First from "../Components/First.astro";
+import Fourth from "../Components/Fourth.astro";
+import Head from "../Components/Head.astro";
+import Second from "../Components/Second.astro";
+import Third from "../Components/Third.astro";
+---
+
+<html lang="en">
+	<Head />
+	<body class="h-screen bg-[#333333] text-[#d4d4d4] font-sans">
+		<main class="bg-[#171718] h-full w-[842px] m-auto px-20 py-8 my-3">
+			<First />
+			<Second />
+			<Third />
+			<Fourth />
+			<Fifth />
+		</main>
+	</body>
+</html>
+
+<style>
+	main {
+		box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.412);
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+</style>
